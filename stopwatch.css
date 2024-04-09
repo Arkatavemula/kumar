@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.container {
+    height: 200px;
+    width: 300px;
+    text-align: center;
+
+    margin: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    background-color: #373b44;
+    box-shadow: 1px 1px 15px #02474d;
+   
+
+}
+
+.timerDisplay {
+    height: 50px;
+    width: 250px;
+    padding-top: 10px;
+    background-color: #e5dde1;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 15px;
+    text-align: center;
+    outline: none;
+    justify-content: space-around;
+    display: flex;
+    color: black;
+    box-shadow: 1px 1px 5px black;
+    font-weight: 800;
+}
+
+.button {
+    margin: 6px;
+    display: flex;
+    text-align: center;
+    padding-left: 35px;
+    gap: 20px;
+}
+
+.button1 {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.button1:hover {
+    background-color: green;
+    color: white;
+}
+
+.button2 {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.button2:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.button3 {
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.button3:hover {
+    background-color: red;
+
+}
+
+body {
+    background-color: white;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+h1 {
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+    text-shadow: 1px 1px 5px black;
+}
